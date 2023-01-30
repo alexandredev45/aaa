@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html[dark], .card{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+html[dark] .cards .card p{
+    color: white;
+}
+
+  html[dark] .button{
+    color: white;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards .card{
+    margin: 0 10px;
+  }
+
+  .cards .card img{
+    border-radius: 50%;
+    width: 128px;
+  }
+
+  .cards .card p{
+    text-align: center;
+  }
+
+  .button{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  
+  .button:hover{
+    cursor: pointer;
+  }
+
+  input{
+    width: 0px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  label{
+    position: absolute;
+    top: -6px;
+    right: 10px;
+  }

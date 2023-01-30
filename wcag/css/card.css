@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1rem;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.barra{
+    width: 100px;
+    height: 10px;
+    color: aqua;
+}
+
+.titulo3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.titulo4{
+    font-size: 1rem;
+    text-align: end;
+}
+.subtitulo{
+    text-align: end;
+}
